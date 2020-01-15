@@ -169,10 +169,10 @@ var ImagesView = {
         images_col_div += '<div class="m-portlet__body">\n';
         images_col_div += '<figure class="effect-chico">\n';
         images_col_div += '<div class="m-widget19">\n';
-        images_col_div += ' <div class="m-widget19__pic m-portlet-fit--top m-portlet-fit--sides" style="min-height: 200px">\n';
+        images_col_div += ' <div class="m-widget19__pic m-portlet-fit--top m-portlet-fit--sides" style="min-height: 300px">\n';
         images_col_div += '<img src="'+v.cover+'" alt="">\n';
         images_col_div += '<h3 class="m-widget19__title m--font-light m-image-title m-image-title-class" >\n';
-        images_col_div += v.title;
+        images_col_div += v.albumName;
         images_col_div += '\n</h3>\n';
         images_col_div += '</div>\n';
         images_col_div += '</div>\n';

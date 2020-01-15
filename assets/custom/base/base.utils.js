@@ -18,13 +18,14 @@ var BaseUtils = {
     'syncMsg': "数据同步失败,请稍候再试!",
     'loadingErrorMsg': "加载数据失败,请稍候再试!",
     'loginTimeOutMsg':"登录信息已过期,即将重新登录!",
-    'functionButtonKey': "centre_function_button_",
-    'user_access_token': "centre_user_credential",
-    'user_info': "centre_user",
+    'functionButtonKey': "photo_function_button_",
+    'user_access_token': "photo_user_credential",
+    'user_info': "photo_user",
     "encryption":true,
     "secretKey":"dO6+g3+08ELBKtx/1/WBYQ==",
     "lessee": 1,
     "lesseeName": "休琴忘普摄影工作室",
+    "carouselHeight": "400px",
 
 
     /**
