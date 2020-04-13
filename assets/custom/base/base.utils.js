@@ -814,7 +814,7 @@ var BaseUtils = {
         var headers = {
             "sign":sign,
             "tenement" :  BaseUtils.lessee,
-            "subscriber" : BaseUtils.getCurrentUserId()
+            "userId" : BaseUtils.getCurrentUserId()
         };
         return headers;
     },
@@ -835,7 +835,7 @@ var BaseUtils = {
             "sign":sign,
             "Authorization" :  authorization,
             "tenement" :  BaseUtils.lessee,
-            "subscriber" : BaseUtils.getCurrentUserId()
+            "userId" : BaseUtils.getCurrentUserId()
         };
         return headers;
     },
