@@ -3,7 +3,7 @@
  * @type {{init}}
  */
 var SnippetMainPageActivities = function() {
-    var serverUrl = BaseUtils.serverAddress;
+    var serverUrl = BaseUtils.albumServerAddress;
     var activitiesMainPageMark = 1;
     var activitiesMainPageModuleCode = '1040';
     var activitiesGridPageSize = 20;

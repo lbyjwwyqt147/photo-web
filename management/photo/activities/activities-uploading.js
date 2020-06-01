@@ -3,7 +3,7 @@
  * @type {{init}}
  */
 var SnippetMainActivitiesPageUploading= function() {
-    var serverUrl = BaseUtils.serverAddress;
+    var serverUrl = BaseUtils.albumServerAddress;
     var cloudServerUrl = BaseUtils.cloudServerAddress;
     var uploadingMainPageSubmitForm = $("#activities_uploading_mainPage_dataSubmit_form");
     var uploadingMainPageSubmitFormId = "#activities_uploading_mainPage_dataSubmit_form";
